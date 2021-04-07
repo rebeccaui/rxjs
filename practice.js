@@ -2,7 +2,7 @@
 // Loop over by subscribing
 
 //Create an observable
-const observable = Rx.Observable.create(observer => {
+const observable = rxjs.Observable.create(observer => {
         observer.next('hello');
 })
 
